@@ -72,6 +72,11 @@ html {
 
 }
 
+.site-buttons a {
+    color: #DC23EA;
+    text-decoration: none;
+}
+
 /* satoru gojo imagen cambiar */
 .site-main .site-banner .banner-image>img {
     padding: 4rem 0;
