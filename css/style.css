@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body,
+html {
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#navBar {
+    background: #020202;
+    /* #eabcf2
+    #f3f3f3 #1b1718;*/
+}
+
+.nav-link {
+    color: #DC23EA !important;
+}
+
+.navbar-nav a {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+
+.navbar-nav a:hover {
+    /* background: #A7A7A7; */
+    border-radius: 5px;
+    border: 1px solid #DC23EA;
+
+    text-decoration: underline;
+    cursor: pointer;
+    color: #DC23EA;
+
+    text-decoration-color: #DC23EA;
+}
+
+/* banner */
+.banner-image {
+    background: no-repeat;
+    padding-top: 2rem;
+    /* padding-left: 8rem;
+    padding-right: 8rem; */
+}
+
+.site-main .site-banner .site-title h3 {
+    font-weight: 300;
+    padding-top: 20%;
+
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 3rem;
+}
+
+.site-title h1 {
+    font-weight: 300;
+
+    color: #DC23EA;
+}
+
+.site-title h4 {
+    font-weight: 300;
+}
+
+.site-buttons {
+    color: #DC23EA;
+
+}
+
+/* satoru gojo imagen cambiar */
+.site-main .site-banner .banner-image>img {
+    padding: 4rem 0;
+    padding-left: 2rem;
+    width: 20rem;
+}
+
+.button.secondary-button {
+    transition: background.5s ease;
+    border-radius: 4px;
+    color: #DC23EA;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.button.secondary-button:hover {
+    background: #DCDCDC;
+}
+
+/* acerca de mi */
+.site-main .about-area {
+    padding: 2rem 2rem;
+    background-color: #DCDCDC;
+
+}
+
+.about-title h2 {
+    font-size: 28px;
+}
+
+
+.site-main .about-area .about-title {
+    display: block;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+/* .about-image img{
+    padding-left: 20rem;
+    padding-top: 5rem;
+} */
+
+#btn3 {
+    transition: background.5s ease;
+    border-radius: 4px;
+    font-weight: 400;
+
+    color: #1b1718;
+}
+
+#btn3:hover {
+    background: #DC23EA;
+}
+
+#card-bg {
+    box-shadow: 10px 10px 22px 1px rgba(220, 35, 234, 0.35);
+    box-shadow: 10px 10px 22px 1px rgba(220, 35, 234, 0.35);
+    /* box-shadow: 10px 10px 22px 1px rgba(220,35,234,0.35);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.skills-area {
+    padding-bottom: 5rem;
+}
+
+
+.footer {
+    background: #020202;
+}
+
+.bg-rosa {
+    color: #DC23EA;
+}
+
+#container-foot {
+    padding-top: 1rem;
+}
+
+/* Cambiar el color de los iconos */
+.footer a i {
+    color: #DC23EA;
+    /* Cambia #FF5733 por el color que desees */
+}
+
+.footer h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+
+/* .form {
+    width: 100%; /* Ajusta el ancho del formulario según tu preferencia 
+    max-width: 450px; /* Establece el ancho máximo del formulario 
+    padding: 20px;
+    border: 1px solid #020202;
+    border-radius: 8px;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #DCDCDC;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+} */
+
+/* Estilos adicionales para el formulario */
+/* .form label,
+.form input,
+.form textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #020202;
+    border-radius: 4px;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.form button {
+    background-color: #DC23EA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.form button:hover {
+    background-color: #020202;
+} */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #DCDCDC;
+    padding-bottom: 3rem;
+    height: 100vh;
+}
+
+/* Estilos para el formulario */
+.form {
+    width: 100%;
+    /* Ajusta el ancho del formulario según tu preferencia */
+ 
+    /* Establece el ancho máximo del formulario */
+    padding: 20px;
+    border: 1px solid #020202;
+    border-radius: 8px;
+    text-align: center;
+
+    
+}
+
+.form label,
+.form input,
+.form textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #020202;
+    border-radius: 4px;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.form button {
+    background-color: #DC23EA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.form button:hover {
+    background-color: #020202;
+}
